@@ -15,7 +15,6 @@ if (a) {
                 i.setAttribute('style', 'margin-right:10px;');
                 var t = document.querySelectorAll(".text-right.table-price")[document.querySelectorAll(".text-right.table-price").length - 1].innerHTML.replace('$', '').replace('.', '').replace(',', '.');
                 var s = window.btoa(unescape(encodeURIComponent(e + '**' + t)));
-                console.log(e);
                 b.appendChild(i);
                 c.appendChild(d);
                 c.setAttribute('href', 'https://checkout.tiendacrypto.com/new/' + s);
